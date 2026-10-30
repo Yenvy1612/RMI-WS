@@ -6,7 +6,7 @@ import RMI.TicketSla;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class TicketSLA_THIET_LAP_NGUONG {
+public class ObjectService_TicketSLA_THIET_LAP_NGUONG {
     public static void main(String[] args) throws Exception{
         Registry rg = LocateRegistry.getRegistry("36.50.135.242", 1099);
         ObjectService sv = (ObjectService) rg.lookup("RMIObjectService");

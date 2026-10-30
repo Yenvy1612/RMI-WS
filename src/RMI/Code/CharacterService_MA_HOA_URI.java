@@ -6,7 +6,7 @@ import java.net.URI;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class MA_HOA_URI {
+public class CharacterService_MA_HOA_URI {
     public static void main(String[] args) throws Exception{
         Registry rg = LocateRegistry.getRegistry("36.50.135.242", 1099);
 

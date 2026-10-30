@@ -7,7 +7,7 @@ import java.rmi.registry.Registry;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DINH_CUC_BO {
+public class DataService_DINH_CUC_BO {
     public static void main(String[] args) throws Exception{
 
         Registry rg = LocateRegistry.getRegistry("36.50.135.242", 1099);

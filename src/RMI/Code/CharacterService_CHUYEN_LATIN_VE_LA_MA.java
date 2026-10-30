@@ -5,7 +5,7 @@ import RMI.CharacterService;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class CHUYEN_LATIN_VE_LA_MA {
+public class CharacterService_CHUYEN_LATIN_VE_LA_MA {
     public static void main(String[] args) throws Exception{
 
         Registry rg = LocateRegistry.getRegistry("36.50.135.242",1099);

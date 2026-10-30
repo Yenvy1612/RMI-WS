@@ -7,7 +7,7 @@ import java.rmi.registry.Registry;
 import java.util.Arrays;
 import java.util.Locale;
 
-public class GIA_TRI_TRUNG_BINH_DO_LECH_CHUAN {
+public class DataService_GIA_TRI_TRUNG_BINH_DO_LECH_CHUAN {
     public static void main(String[] args) throws Exception{
         Registry rg = LocateRegistry.getRegistry("36.50.135.242", 1099);
 
